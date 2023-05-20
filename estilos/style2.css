@@ -10,26 +10,27 @@ body{
     background-color: black;
 }
 
-section img{
-    display: block;
-    margin: auto;
+::-webkit-scrollbar{
+    width:0px;
+    height: 0px;
 }
 
 img{
-    text-align: center;
-    width: 96vw;
+    width: 100vw;
 }
 
-footer{
+a{
+    display: block;
     text-align: center;
     margin-top: 5px;
     padding: 20px;
     background-color: darkred;
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
-a, footer:hover{
+a:hover{
     text-decoration: none;
     color: white;
     background-color: rgb(255, 38, 38);
